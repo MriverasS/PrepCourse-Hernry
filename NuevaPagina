@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de reportes en Beneficios Sociales</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://softguard.com/sg/wp-content/uploads/2021/02/sen%CC%83aletica-CLA-3-1024x631.jpg') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .nav-item {
+            background-color: #ffd700;
+        }
+        .nav-item a {
+            color: #0000ff;
+        }
+        .nav-item a:hover {
+            color: #ffffff;
+        }
+        .tab-content {
+            background-color: #f2f2f2; /* Color de fondo gris claro */
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .navbar-brand img {
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://d1fdloi71mui9q.cloudfront.net/qj2lY04FTE6cAkbfv2qb_pjhz0BzH7x7hYHQ6" alt="Logo"> 
+            Reportes BBSS
+        </a>
+    </nav>
+
+    <div class="container">
+        <ul class="nav nav-tabs mt-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#graficos" data-toggle="tab">Gráficos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tabla" data-toggle="tab">Tabla dinámica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#mapa" data-toggle="tab">Mapa de calor</a>
+            </li>
+            <!-- Agrega aquí tus nuevas pestañas -->
+            <li class="nav-item">
+                <a class="nav-link" href="#nuevaPestaña1" data-toggle="tab">Nueva Pestaña 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#nuevaPestaña2" data-toggle="tab">Nueva Pestaña 2</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="graficos">
+                <h2>Gráficos</h2>
+                <iframe src="https://docs.google.com/presentation/d/1xoYtHI7M5wjb90-JhCHYS-tFeWTnR46TFpxOjxaFz9M/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+            <div class="tab-pane fade" id="tabla">
+                <h2>Tabla dinámica</h2>
+                <p>Contenido de tabla dinámica...</p>
+            </div>
+            <div class="tab-pane fade" id="mapa">
+                <h2>Mapa de calor</h2>
+                <p>No se pudo incrustar el mapa de calor desde Looker Studio.</p>
+            </div>
+            <!-- Agrega aquí el contenido de tus nuevas pestañas -->
+            <div class="tab-pane fade" id="nuevaPestaña1">
+                <h2>Nueva Pestaña 1</h2>
+                <p>Contenido de la nueva pestaña 1...</p>
+            </div>
+            <div class="tab-pane fade" id="nuevaPestaña2">
+                <h2>Nueva Pestaña 2</h2>
+                <p>Contenido de la nueva pestaña 2...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">2023 - Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
